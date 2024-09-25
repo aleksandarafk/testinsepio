@@ -1,0 +1,56 @@
+{
+   "title": "Insepio",
+    "Services": "Services",
+    "About": "About Us",
+    "Contact": "Contact Us",
+    "InfoBox":"Begin your unique journey today!",
+    "LearnMore": "Learn More",
+    "HowItWorks": "How Does It Work",
+    "BG":"BG",
+    "EN":"EN",
+    "about":{
+        "overtitle":"your journey, your rules",
+        "title": "Why Insepio?",
+        "p1": "We are a young company that aims to ease the travel planning process and make the client feel in charge.",
+        "subtitle1":" Immersive Cultural Connection",
+        "subtitle2":" Personalized Authenticity",
+        "subtitle3":" More for Less",
+        "p2": "Immerse yourself in an authentic experience where you won't feel like just another face in the crowd.",
+        "p3": "Engage with the local community and immerse yourself in their unique culture, traditions, and way of life.",
+        "p4": "Explore and experience more while spending less."
+    },
+    "contact": {
+        "title1": "Got any questions?",
+        "title2": "Follow our social media",
+        "p1": "You are not sure how to plan, what to do or just want to ask for an advice.",
+        "p2": "Follow our social media channels for the latest updates & news.",
+        "footer": "©INSEPIO,"
+    },
+    "OurServices":{
+            "title": "Our Services",
+            "p1": "Below you can see all of our services to help decide what suits your needs best.",
+            "package1": "Package #1",
+            "package2": "Package #2",
+            "package3": "Package #3",
+            "package1desc": "How to choose travel destination within Europe?",
+            "package2desc": "We will design your dream itinerary!",
+            "package3desc": "Full program: Travel itinerary, all bookings and more!"
+},
+"Gallery":{
+    "title": "Gallery",
+    "p1": "Immersing yourself in our gallery of X itineraries. Check our personal choice's galleries.",
+    "gallery1": "BEAUTIFUL BULGARIAN CULTURE & PLACES",
+    "gallery2": "COZY DUTCH CULTURE & POPULAR PLACES",
+    "gallery3": "SUBURBAN AMERICAN CULTURE & HISTORICAL PLACES",
+    "pics": "Снимки: 50",
+    "packagedesc1": "BULGARIA",
+    "package2desc": "NETHERLANDS",
+    "package3desc": "THE USA",
+    "exploregallery": "Explore our Gallery"
+},
+        "404": {
+            "notfound": "Page not found",
+            "notfound_desc":"This page does not exist.",
+            "goback": "Go back"
+        }
+    }

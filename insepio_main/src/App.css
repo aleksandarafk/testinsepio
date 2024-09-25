@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1em;
+  scroll-behavior: smooth !important;
+}
+
+section
+{
+  height: 100vh;
+  overflow: hidden;
+}
+
+section#home{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./public/HeaderImg.png");
+  background-size: 100%;
+  background-size: cover;
+  filter:brightness(99%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+.intro{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.herobtn{
+    width: 10%;
+    display: inline-block;
+    text-decoration: none;
+    background: #007C80;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+
+.herobtn:hover{
+  background: #165260;
+  transition: 0.5s ease-in-out;
+}
+
+#home .title {
+  font-size: 64px;
+  margin-bottom: 5px;
+}
+
+.info{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+section#contact{
+  margin: 1vw;
+}
+
+.titleContact{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #007C80;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #165260;
+  transition: 0.5s ease-in-out;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+
+form{
+  width: 50%;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 9%;
+  margin-top: 1rem;
+}
+
+.box-container .box {
+  flex: 1 1 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 2rem;
+  width: 26rem;
+  position: relative;
+}
+
+.box-container .box h3 {
+  font-size: 2vw;
+}
+
+.box-container .box p {
+  font-size: 1vw;
+}
+
+.darkBlue{
+  background: rgba(217, 237, 146, 0.11);
+}
+
+.white{
+  background: rgb(0, 150, 128, .11);
+}
+
+.lightBlue{
+  background: rgb(83, 89, 154, .11);
+}
+
+.bulgaria{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./public/bulgaria.png");
+  background-size: 100%;
+  background-size: cover;
+}
+
+.nl{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./public/nl.png");
+  background-size: 100%;
+  background-size: cover;
+}
+
+.usa{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./public/usa.png");
+  background-size: 100%;
+  background-size: cover;
+}
+
+.uppercase{
+  color: white;
+  font-weight: bold;
+}
+
+.gallery{
+  color: white;
+}
+
+.pic{
+  color: white;
+}
+
+.box-container .gallery{
+  height: 8em;
+  border: none;
+}
+
+.gallery, .pic, .uppercase{
+  text-align: left;
+}
+
+.explorebtn{
+  border-radius: 10px;
+  border: solid, rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+}
+
+.explorebtn:hover{
+  background-color: #228196;
+  color:white;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.boxy
+{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boxy span
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #ebebeb;
+  border-right: 5px solid #ececec;
+  transform: rotate(45deg);
+  animation: animate 2s infinite;
+}
+
+.boxy span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+
+.boxy span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+.tooltip{
+  position: relative;
+  background: #24879E;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  color: #fff;
+  bottom: 3px;
+  cursor: pointer;
+}
+
+.tooltip:before,
+.tooltip:after{
+  position: absolute;
+  content: "";
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.tooltip:before{
+  border-width: 10px 8px 0 8px;
+  border-style: solid;
+  border-color: #24879E transparent transparent transparent;
+  top: -10px;
+  right: 7px;
+  transform: translateY(20px);
+}
+
+.tooltip:after{
+  content: attr(data-tooltip);
+  background: #24879E;
+  width: 160px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  top: -49px;
+  left: -10px;
+  border-radius: 4%;
+}
+
+.tooltip:hover:before,
+.tooltip:hover:after{
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.imgleft{
+  margin: 0;
+  float: left;
+  width: 50%;
+}
+
+.text-box {
+  width: 90%;
+  color: var(--black);
+  position: relative;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  filter: opacity(99%);
+}
+
+.text-box h1 {
+  font-family: var(--black);
+  font-size: 40px;
+  margin: 0;
+}
+
+.text-box p {
+  font-family: var(--black);
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.about{
+  color: gray;
+  text-transform: uppercase;
+}
+
+.reason p{
+  font-size: 15px;
+}
+
+.reason h1{
+  font-size: 20px;
+}
+
+
+section#services{
+  margin-top: 2rem;
+  height: 90vh;
+}
+
+.info p{
+  margin-top:0;
+}
+
+.info h1{
+  margin-bottom: 0;
+}
+
+.left p{
+  margin-top: 0;
+}
+
+.left h1{
+  margin-bottom: 0;
+}
+
+.right p{
+  margin-top: 0;
+}
+
+.right h1{
+  margin-bottom: 0;
+}
+
+section#notfound {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./public/404.svg");
+  filter: brightness(99%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
