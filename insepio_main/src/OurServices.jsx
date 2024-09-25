@@ -13,19 +13,19 @@ function OurServices() {
       </div>
       <div className="box-container">
         <div className="box lightBlue" >
-          <img src="./public/service1.svg" height="200px" alt="" />
+          <img src="/service1.svg" height="200px" alt="" />
           <h3>{t("OurServices.package1")} <span class="tooltip" data-tooltip="Detail explanation of service can be done like">?</span></h3>
           <p>{t("OurServices.package1desc")}</p>
         </div>
 
         <div className="box white">
-          <img src="./public/service2.svg" height="200px" alt="" />
+          <img src="./service2.svg" height="200px" alt="" />
           <h3>{t("OurServices.package2")} <span class="tooltip" data-tooltip="Detail explanation of service can be done like">?</span></h3>
           <p>{t("OurServices.package2desc")}</p>
         </div>
 
         <div className="box darkBlue">
-          <img src="./public/service3.svg" height="200px" alt="" />
+          <img src="./service3.svg" height="200px" alt="" />
           <h3> {t("OurServices.package3")} <span class="tooltip" data-tooltip="Detail explanation of service can be done like">?</span></h3>
           <p>{t("OurServices.package3desc")}</p>
         </div>

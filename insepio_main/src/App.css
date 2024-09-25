@@ -17,7 +17,7 @@ section
 }
 
 section#home{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./HeaderImg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/HeaderImg.png");
   background-size: 100%;
   background-size: cover;
   filter:brightness(99%);
@@ -168,19 +168,19 @@ form{
 }
 
 .bulgaria{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./bulgaria.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/bulgaria.png");
   background-size: 100%;
   background-size: cover;
 }
 
 .nl{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./nl.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/nl.png");
   background-size: 100%;
   background-size: cover;
 }
 
 .usa{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./usa.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/usa.png");
   background-size: 100%;
   background-size: cover;
 }
@@ -373,7 +373,7 @@ section#services{
 }
 
 section#notfound {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./404.svg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/404.svg");
   filter: brightness(99%);
   background-repeat: no-repeat;
   background-position: center;

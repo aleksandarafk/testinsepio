@@ -10,7 +10,7 @@ function About() {
   return (
     <>
     <section id='about'>
-        <img src='./public/ContactImg.png' className='imgleft'/>
+        <img src='/ContactImg.png' className='imgleft'/>
         <div className='text-box'>
             <p className='uppercase about'>{t("about.overtitle")}</p>
             <h1>{t("about.title")}</h1>
